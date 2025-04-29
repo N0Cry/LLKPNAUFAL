@@ -5,6 +5,6 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/llkpnaufal", // ← ganti sesuai nama repo GitHub kamu
+  base: "/LLKPNAUFAL/", // ← ganti sesuai nama repo GitHub kamu
   plugins: [react(), tailwindcss()],
 })
