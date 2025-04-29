@@ -1,0 +1,69 @@
+{
+    "nav": {
+      "home": "Home",
+      "courses": "Courses",
+      "about": "About",
+      "gallery": "Gallery",
+      "contact": "Contact"
+    },
+    "hero": {
+    "title": "Learn Smarter at LKP NAUFAL",
+    "subtitle": "We offer various courses and training for all ages",
+    "cta": "See Our Courses"
+    },
+    "features": {
+    "title": "Courses Provided",
+    "calistung": "Calistung",
+    "age_5": "Age from 5 years old.",
+    "komputer": "Computer",
+    "belajar_komputer": "Learn basic computer skills, including Office software.",
+    "semua_mata_pelajaran": "All Subjects",
+    "seluruh_siswa": "For all students.",
+    "tata_boga": "Culinary Arts",
+    "belajar_kue": "Learn how to make cakes."
+    },
+    "tentang": {
+    "title": "About Us"
+  },
+  "history": {
+    "title": "History",
+    "description": "Since 18 July 2004"
+  },
+  "vision": {
+    "title": "Vision",
+    "description": "To create individuals who love learning, working, striving, and creating, thus becoming creative, independent, noble in character, and capable of facing global challenges."
+  },
+  "mission": {
+    "title": "Mission",
+    "description": "To serve the needs for learning guidance and provide the education and skills required by the community based on spiritual values to face global challenges."
+  },
+  "goal": {
+    "title": "Goal",
+    "description": "To organize skill education through courses and training for the community, and to provide tutoring services to help children develop a love for learning."
+  },
+    "gallery": {
+    "title": "Activity Gallery",
+    "calistung": "Calistung",
+    "tataBoga": "Culinary",
+    "komputer": "Computer"
+  },
+  "awards": {
+    "title": "Children's Awards"
+  },
+    "contact": {
+      "title": "Contact Us",
+      "subtitle": "Get in touch with us for more information",
+      "form": {
+        "name": "Name",
+        "email": "Email",
+        "message": "Message",
+        "send": "Send Message"
+      }
+    },
+    "footer": {
+        "description": "Shaping a competent generation through quality training.",
+        "address": "Address: https://maps.app.goo.gl/H4fRULAULex9bKmJ6",
+        "rights": "All rights reserved."
+      }
+}
+  
