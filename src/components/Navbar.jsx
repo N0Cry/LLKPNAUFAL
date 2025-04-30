@@ -16,7 +16,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
         {/* Logo */}
         <div className="flex items-center space-x-3">
-          <img src="/img/logo/LKP NAUFAL LOGO.jpg" alt="Logo" className="w-10 h-10 object-contain rounded-full" />
+          <img src="img/logo/LKP NAUFAL LOGO.jpg" alt="Logo" className="w-10 h-10 object-contain rounded-full" />
           <div className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-yellow-400">
             LKP NAUFAL
           </div>

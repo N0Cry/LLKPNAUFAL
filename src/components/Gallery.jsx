@@ -77,7 +77,7 @@ export default function Gallery() {
         <SwiperSlide>
           <div className="w-full h-64 bg-gray-200 rounded-xl overflow-hidden relative group">
             <img
-              src="/img/komputer/1.jpg"
+              src="img/komputer/1.jpg"
               alt="Culinary Activity"
               className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
             />
@@ -91,7 +91,7 @@ export default function Gallery() {
         <SwiperSlide>
           <div className="w-full h-64 bg-gray-200 rounded-xl overflow-hidden relative group">
             <img
-              src="/img/tataboga/2.jpg"
+              src="img/tataboga/2.jpg"
               alt="Culinary Activity"
               className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
             />
@@ -105,7 +105,7 @@ export default function Gallery() {
         <SwiperSlide>
           <div className="w-full h-64 bg-gray-200 rounded-xl overflow-hidden relative group">
             <img
-              src="/img/calistung anak anak/3.jpg"
+              src="img/calistung anak anak/3.jpg"
               alt="Calistung Activity"
               className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
             />
