@@ -31,7 +31,45 @@ export default function Gallery() {
         }}
         className="rounded-xl overflow-hidden"
       >
-        {/* Slide 1 */}
+        {/* BELAJAR SISWA MAHASISWA */}
+        <SwiperSlide>
+          <div className="w-full h-64 bg-gray-200 rounded-xl overflow-hidden relative group">
+            <img
+              src="img/belajar siswa_mahasiswa/1.jpg"
+              alt="Student Activity"
+              className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
+            />
+            <figcaption className="absolute bottom-0 left-0 bg-gradient-to-t from-black text-white p-4 transform group-hover:translate-y-5 transition-transform duration-500">
+              {t('gallery.sismah')}
+            </figcaption>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="w-full h-64 bg-gray-200 rounded-xl overflow-hidden relative group">
+            <img
+              src="img/belajar siswa_mahasiswa/2.jpg"
+              alt="Student Activity"
+              className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
+            />
+            <figcaption className="absolute bottom-0 left-0 bg-gradient-to-t from-black text-white p-4 transform group-hover:translate-y-5 transition-transform duration-500">
+              {t('gallery.sismah')}
+            </figcaption>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="w-full h-64 bg-gray-200 rounded-xl overflow-hidden relative group">
+            <img
+              src="img/belajar siswa_mahasiswa/3.jpg"
+              alt="Student Activity"
+              className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
+            />
+            <figcaption className="absolute bottom-0 left-0 bg-gradient-to-t from-black text-white p-4 transform group-hover:translate-y-5 transition-transform duration-500">
+              {t('gallery.sismah')}
+            </figcaption>
+          </div>
+        </SwiperSlide>
+
+        {/* CALISTUNG ANAK ANAK */}
         <SwiperSlide>
           <div className="w-full h-64 bg-gray-200 rounded-xl overflow-hidden relative group">
             <img
@@ -44,22 +82,18 @@ export default function Gallery() {
             </figcaption>
           </div>
         </SwiperSlide>
-
-        {/* Slide 2 */}
         <SwiperSlide>
           <div className="w-full h-64 bg-gray-200 rounded-xl overflow-hidden relative group">
             <img
-              src="img/tataboga/1.jpg"
+              src="img/calistung anak anak/2.jpg"
               alt="Calistung Activity"
               className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
             />
             <figcaption className="absolute bottom-0 left-0 bg-gradient-to-t from-black text-white p-4 transform group-hover:translate-y-5 transition-transform duration-500">
-              {t('gallery.tataBoga')}
+              {t('gallery.calistung')}
             </figcaption>
           </div>
         </SwiperSlide>
-
-        {/* Slide 3 */}
         <SwiperSlide>
           <div className="w-full h-64 bg-gray-200 rounded-xl overflow-hidden relative group">
             <img
@@ -73,21 +107,19 @@ export default function Gallery() {
           </div>
         </SwiperSlide>
 
-        {/* Tata Boga Slide 1 */}
+        {/* TATA BOGA  */}
         <SwiperSlide>
           <div className="w-full h-64 bg-gray-200 rounded-xl overflow-hidden relative group">
             <img
-              src="img/komputer/1.jpg"
+              src="img/tataboga/1.jpg"
               alt="Culinary Activity"
               className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
             />
             <figcaption className="absolute bottom-0 left-0 bg-gradient-to-t from-black text-white p-4 transform group-hover:translate-y-5 transition-transform duration-500">
-              {t('gallery.komputer')}
+              {t('gallery.tataBoga')}
             </figcaption>
           </div>
         </SwiperSlide>
-
-        {/* Tata Boga Slide 2 */}
         <SwiperSlide>
           <div className="w-full h-64 bg-gray-200 rounded-xl overflow-hidden relative group">
             <img
@@ -100,20 +132,31 @@ export default function Gallery() {
             </figcaption>
           </div>
         </SwiperSlide>
-
-        {/* Slide 6 */}
         <SwiperSlide>
           <div className="w-full h-64 bg-gray-200 rounded-xl overflow-hidden relative group">
             <img
-              src="img/calistung anak anak/3.jpg"
-              alt="Calistung Activity"
+              src="img/tataboga/3.jpg"
+              alt="Culinary Activity"
               className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
             />
             <figcaption className="absolute bottom-0 left-0 bg-gradient-to-t from-black text-white p-4 transform group-hover:translate-y-5 transition-transform duration-500">
-              {t('gallery.calistung')}
+              {t('gallery.tataBoga')}
             </figcaption>
           </div>
         </SwiperSlide>
+        {/* KOMPUTER */}
+        <SwiperSlide>
+          <div className="w-full h-64 bg-gray-200 rounded-xl overflow-hidden relative group">
+            <img
+              src="img/komputer/1.jpg"
+              alt="Computer Activity"
+              className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
+            />
+            <figcaption className="absolute bottom-0 left-0 bg-gradient-to-t from-black text-white p-4 transform group-hover:translate-y-5 transition-transform duration-500">
+              {t('gallery.komputer')}
+            </figcaption>
+          </div>
+        </SwiperSlide>     
       </Swiper>
     </section>
   );

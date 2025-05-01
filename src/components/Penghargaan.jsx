@@ -3,9 +3,9 @@ import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 
 const awards = [
-  { nameKey: "", image: "https://i.imgur.com/qJ9zhSB.jpeg" },
-  { nameKey: "", image: "https://i.imgur.com/aswyoJV.jpeg" },
-  { nameKey: "", image: "https://i.imgur.com/1WMyzDg.jpeg" },
+  { nameKey: "ANJING", image: 'img/pengharagaan/1.jpg'},
+  { nameKey: "", image: "" },
+  { nameKey: "", image: "" },
 ];
 
 
@@ -14,7 +14,7 @@ const Penghargaan = () => {
   return (
     <section id="penghargaan" className="py-16 px-6 bg-gradient-to-r from-white via-blue-400 text-white">
       <h2 className="text-4xl font-bold text-center mb-12">{t('awards.title')}</h2>
-      <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-4">
+      <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-12">
         {awards.map((award, index) => (
           <motion.div
             key={index}
