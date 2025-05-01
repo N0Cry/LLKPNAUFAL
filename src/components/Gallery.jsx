@@ -33,7 +33,7 @@ export default function Gallery() {
       >
         {/* BELAJAR SISWA MAHASISWA */}
         <SwiperSlide>
-          <div className="w-full h-64 bg-gray-200 rounded-xl overflow-hidden relative group">
+          <div className="w-full h-130 bg-gray-200 rounded-xl overflow-hidden relative group">
             <img
               src="img/belajar siswa_mahasiswa/1.jpg"
               alt="Student Activity"
@@ -45,7 +45,7 @@ export default function Gallery() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="w-full h-64 bg-gray-200 rounded-xl overflow-hidden relative group">
+          <div className="w-full h-130 bg-gray-200 rounded-xl overflow-hidden relative group">
             <img
               src="img/belajar siswa_mahasiswa/2.jpg"
               alt="Student Activity"
@@ -57,7 +57,7 @@ export default function Gallery() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="w-full h-64 bg-gray-200 rounded-xl overflow-hidden relative group">
+          <div className="w-full h-130 bg-gray-200 rounded-xl overflow-hidden relative group">
             <img
               src="img/belajar siswa_mahasiswa/3.jpg"
               alt="Student Activity"
@@ -71,7 +71,7 @@ export default function Gallery() {
 
         {/* CALISTUNG ANAK ANAK */}
         <SwiperSlide>
-          <div className="w-full h-64 bg-gray-200 rounded-xl overflow-hidden relative group">
+          <div className="w-full h-130 bg-gray-200 rounded-xl overflow-hidden relative group">
             <img
               src="img/calistung anak anak/1.jpg"
               alt="Calistung Activity"
@@ -83,7 +83,7 @@ export default function Gallery() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="w-full h-64 bg-gray-200 rounded-xl overflow-hidden relative group">
+          <div className="w-full h-130 bg-gray-200 rounded-xl overflow-hidden relative group">
             <img
               src="img/calistung anak anak/2.jpg"
               alt="Calistung Activity"
@@ -95,9 +95,57 @@ export default function Gallery() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="w-full h-64 bg-gray-200 rounded-xl overflow-hidden relative group">
+          <div className="w-full h-130 bg-gray-200 rounded-xl overflow-hidden relative group">
             <img
               src="img/calistung anak anak/3.jpg"
+              alt="Calistung Activity"
+              className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
+            />
+            <figcaption className="absolute bottom-0 left-0 bg-gradient-to-t from-black text-white p-4 transform group-hover:translate-y-5 transition-transform duration-500">
+              {t('gallery.calistung')}
+            </figcaption>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="w-full h-130 bg-gray-200 rounded-xl overflow-hidden relative group">
+            <img
+              src="img/calistung anak anak/4.jpg"
+              alt="Calistung Activity"
+              className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
+            />
+            <figcaption className="absolute bottom-0 left-0 bg-gradient-to-t from-black text-white p-4 transform group-hover:translate-y-5 transition-transform duration-500">
+              {t('gallery.calistung')}
+            </figcaption>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="w-full h-130 bg-gray-200 rounded-xl overflow-hidden relative group">
+            <img
+              src="img/calistung anak anak/5.jpg"
+              alt="Calistung Activity"
+              className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
+            />
+            <figcaption className="absolute bottom-0 left-0 bg-gradient-to-t from-black text-white p-4 transform group-hover:translate-y-5 transition-transform duration-500">
+              {t('gallery.calistung')}
+            </figcaption>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="w-full h-130 bg-gray-200 rounded-xl overflow-hidden relative group">
+            <img
+              src="img/calistung anak anak/6.jpg"
+              alt="Calistung Activity"
+              className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
+            />
+            <figcaption className="absolute bottom-0 left-0 bg-gradient-to-t from-black text-white p-4 transform group-hover:translate-y-5 transition-transform duration-500">
+              {t('gallery.calistung')}
+            </figcaption>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="w-full h-130 bg-gray-200 rounded-xl overflow-hidden relative group">
+            <img
+              src="img/calistung anak anak/7.jpg"
               alt="Calistung Activity"
               className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
             />
@@ -109,7 +157,7 @@ export default function Gallery() {
 
         {/* TATA BOGA  */}
         <SwiperSlide>
-          <div className="w-full h-64 bg-gray-200 rounded-xl overflow-hidden relative group">
+          <div className="w-full h-130 bg-gray-200 rounded-xl overflow-hidden relative group">
             <img
               src="img/tataboga/1.jpg"
               alt="Culinary Activity"
@@ -121,7 +169,7 @@ export default function Gallery() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="w-full h-64 bg-gray-200 rounded-xl overflow-hidden relative group">
+          <div className="w-full h-130 bg-gray-200 rounded-xl overflow-hidden relative group">
             <img
               src="img/tataboga/2.jpg"
               alt="Culinary Activity"
@@ -133,7 +181,7 @@ export default function Gallery() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="w-full h-64 bg-gray-200 rounded-xl overflow-hidden relative group">
+          <div className="w-full h-130 bg-gray-200 rounded-xl overflow-hidden relative group">
             <img
               src="img/tataboga/3.jpg"
               alt="Culinary Activity"
@@ -146,7 +194,7 @@ export default function Gallery() {
         </SwiperSlide>
         {/* KOMPUTER */}
         <SwiperSlide>
-          <div className="w-full h-64 bg-gray-200 rounded-xl overflow-hidden relative group">
+          <div className="w-full h-130 bg-gray-200 rounded-xl overflow-hidden relative group">
             <img
               src="img/komputer/1.jpg"
               alt="Computer Activity"
