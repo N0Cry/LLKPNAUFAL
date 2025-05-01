@@ -27,9 +27,9 @@ const Penghargaan = () => {
           >
             <img src={award.image} alt={t(award.nameKey)} className="w-full h-64 object-cover" />
 
-            <div className="p-4">
+            {/* <div className="p-4">
               <h3 className="text-center text-xl font-semibold text-gray-700">{t(award.nameKey)}</h3>
-            </div>
+            </div> */}
           </motion.div>
         ))}
       </div>
