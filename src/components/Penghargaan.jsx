@@ -37,46 +37,48 @@ const Penghargaan = () => {
 
         <Swiper
           modules={[Autoplay, Pagination]}
-          spaceBetween={30}
+          spaceBetween={20}
           slidesPerView={1}
           autoplay={{ delay: 3500, disableOnInteraction: false }}
           pagination={{ clickable: true }}
           loop={true}
           breakpoints={{
+            640: {
+              slidesPerView: 1,
+            },
             768: {
-              slidesPerView: 'auto',
+              slidesPerView: 2,
               centeredSlides: true,
-            }
+            },
+            1024: {
+              slidesPerView: 3,
+            },
           }}
           className="w-full"
         >
           {awards.map((award, index) => (
-            <SwiperSlide
-              key={index}
-              className="sm:!w-[320px] md:!w-[360px]"
-            >
-             <motion.div
-  className="relative group rounded-2xl overflow-hidden shadow-xl"
-  initial={{ opacity: 0, y: 30 }}
-  whileInView={{ opacity: 1, y: 0 }}
-  transition={{ duration: 0.5, delay: index * 0.1 }}
-  viewport={{ once: true }}
->
-  <img
-    src={award.image}
-    alt={t(award.nameKey)}
-    title={t(award.nameKey)}
-    className="w-full h-[360px] sm:h-[400px] object-cover object-top group-hover:scale-105 transition-transform duration-500"
-  />
+            <SwiperSlide key={index} className="px-2">
+              <motion.div
+                className="relative group rounded-2xl overflow-hidden shadow-2xl aspect-[3/4] bg-white"
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: index * 0.1 }}
+                viewport={{ once: true }}
+              >
+                <img
+                  src={award.image}
+                  alt={t(award.nameKey)}
+                  title={t(award.nameKey)}
+                  className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
+                />
 
-      {/* Overlay semi-transparan */}
-      {/* <div className="absolute bottom-0 left-0 right-0 bg-black/60 text-white px-4 py-3 text-center backdrop-blur-sm">
-      <div className="flex items-center justify-center gap-2 text-base sm:text-lg font-semibold">
-      🏆 {t(award.nameKey)}
-      </div>
-      </div> */}
-      </motion.div>
-
+                {/* Optional caption */}
+                {/* <div className="absolute bottom-0 left-0 right-0 bg-black/60 text-white px-4 py-3 text-center backdrop-blur-sm">
+                  <div className="flex items-center justify-center gap-2 text-base sm:text-lg font-semibold">
+                    🏆 {t(award.nameKey)}
+                  </div>
+                </div> */}
+              </motion.div>
             </SwiperSlide>
           ))}
         </Swiper>
@@ -86,4 +88,3 @@ const Penghargaan = () => {
 };
 
 export default Penghargaan;
-
