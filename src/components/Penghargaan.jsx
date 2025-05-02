@@ -13,10 +13,6 @@ const awards = [
   { nameKey: "", image: 'img/pengharagaan/2.jpg' },
   { nameKey: "", image: 'img/pengharagaan/3.jpg' },
   { nameKey: "", image: 'img/pengharagaan/4.jpg' },
-  { nameKey: "", image: 'img/pengharagaan/5.jpg' },
-  { nameKey: "", image: 'img/pengharagaan/6.jpg' },
-  { nameKey: "", image: 'img/pengharagaan/7.jpg' },
-  { nameKey: "", image: 'img/pengharagaan/8.jpg' },
 ];
 
 const Penghargaan = () => {

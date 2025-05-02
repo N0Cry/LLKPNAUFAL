@@ -7,6 +7,7 @@ import { useTranslation } from 'react-i18next';
 const backgrounds = [
   'img/bg/bg1.jpg',
   'img/bg/bg2.jpg',
+  'img/bg/bg3.jpg',
 ];
 
 export default function Hero() {
