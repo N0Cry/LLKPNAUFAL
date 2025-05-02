@@ -12,6 +12,7 @@ const galleryItems = [
       'img/belajar siswa_mahasiswa/1.jpg',
       'img/belajar siswa_mahasiswa/2.jpg',
       'img/belajar siswa_mahasiswa/3.jpg',
+      'img/belajar siswa_mahasiswa/4.jpg',
     ],
   },
   {
@@ -23,6 +24,7 @@ const galleryItems = [
       'img/calistung anak anak/4.jpg',
       'img/calistung anak anak/5.jpg',
       'img/calistung anak anak/6.jpg',
+      'img/calistung anak anak/7.jpg',
     ],
   },
   {
@@ -35,7 +37,10 @@ const galleryItems = [
   },
   {
     category: 'komputer',
-    images: ['img/komputer/1.jpg'],
+    images: [
+      'img/komputer/1.jpg',
+      'img/komputer/2.jpg',
+    ],
   },
 ];
 
@@ -77,7 +82,7 @@ export default function Gallery() {
                   alt={`Galeri ${category} ${index + 1}`}
                   className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
                 />
-                <figcaption className="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black/80 to-transparent text-white px-4 py-2 text-sm sm:text-base transform group-hover:translate-y-[-10px] transition-transform duration-500">
+                <figcaption className="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black/80 to-transparent text-white px-4 py-2 text-sm sm:text-base transform group-hover:translate-y-[10px] transition-transform duration-500">
                   {t(`gallery.${category}`)}
                 </figcaption>
               </div>
